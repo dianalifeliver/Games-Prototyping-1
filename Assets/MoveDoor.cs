@@ -18,7 +18,7 @@ public class MoveDoor : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Door.gameObject.transform.position += new Vector3(0, 5, 0);
+            Door.gameObject.transform.position += new Vector3(0, 10, 0);
         }
     }
 }
